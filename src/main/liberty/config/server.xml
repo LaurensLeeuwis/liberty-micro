@@ -1,0 +1,5 @@
+<server description="new server">
+    <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}" id="defaultHttpEndpoint"/>
+	<applicationManager autoExpand="true"/>
+    <applicationMonitor updateTrigger="mbean"/>
+</server>
